@@ -3,14 +3,11 @@
 import { decodeHtml, shuffle } from './utils.js' 
 
 // get the elements from the DOM
-const questionElement = document.getElementById('question');
-console.log("questionElement:", questionElement);
+const questionElement = document.getElementById('question')
 
-const answersElement = document.querySelector('#answers');
-console.log("answersElement:", answersElement);
+const answersElement = document.querySelector('#answers')
 
-const nextQuestionElement = document.querySelector('#nextQuestion');
-console.log("nextQuestionElement:", nextQuestionElement);
+const nextQuestionElement = document.querySelector('#nextQuestion')
 
 
 // IIFE (so we can use async/await)
